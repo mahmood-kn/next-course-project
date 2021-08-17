@@ -1,7 +1,9 @@
-import React from 'react';
+import { useRouter } from 'next/router';
+import PostContent from '../../components/posts/post-detail/post-content';
 
 const SinglePost = () => {
-  return <div></div>;
+  const router = useRouter();
+  return <PostContent />;
 };
 
 export default SinglePost;
