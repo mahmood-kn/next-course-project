@@ -9,7 +9,6 @@ module.exports = (phase) => {
         mongodb_clustername: 'contactkeeper',
         mongodb_database: 'my-site-dev',
       },
-      target: 'serverless',
     };
   }
   return {
@@ -19,6 +18,5 @@ module.exports = (phase) => {
       mongodb_clustername: 'contactkeeper',
       mongodb_database: 'my-site',
     },
-    target: 'serverless',
   };
 };
